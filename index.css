@@ -17,6 +17,7 @@ body {
 
 .header-logo {
     height: 32px;
+    cursor: pointer;
 }
 
 .content {
@@ -101,6 +102,7 @@ body {
     color: #FFFFFF;
     font-size:medium;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 @media (max-width: 1000px){
