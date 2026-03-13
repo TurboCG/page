@@ -133,5 +133,12 @@ body {
 
 
 .big {
-    height: 100%;
+    height: auto;
+    width: 90vw;
+}
+
+@media (max-height: 200px) {
+    .big {
+        background-image: url("./res/productspng/MATEKETTLEPRO_mobile.png");
+    }
 }
